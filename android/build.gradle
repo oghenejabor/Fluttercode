@@ -1,0 +1,25 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+
+    // add this line for onesignal_flutter to work in android device
+    afterEvaluate {
+        android {
+            compileSdkVersion 34
+        }
+    }
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
