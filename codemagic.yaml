@@ -7,8 +7,6 @@ workflows:
     scripts:
       - flutter pub get
       - cd ios && pod install && cd ..
-      - flutter build ios --simulator
-      - mkdir -p build/ios/ipa
-      - zip -r build/ios/ipa/Runner.app.zip build/ios/iphonesimulator/Runner.app
+      - flutter build ipa --export-method app-store
     artifacts:
-      - build/ios/ipa/Runner.app.zip
+      - build/ios/ipa/Runner.ipa
