@@ -5,6 +5,7 @@ workflows:
       flutter: stable
       xcode: latest
     scripts:
+      - flutter pub get
       - cd ios && pod install && cd ..
       - flutter build ios --simulator
       - zip -r build/ios/ipa/Runner.app.zip build/ios/iphonesimulator/Runner.app
