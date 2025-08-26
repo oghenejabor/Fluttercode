@@ -7,8 +7,28 @@ import 'package:flyweb/src/helpers/SharedPref.dart';
 import 'package:flyweb/src/models/settings.dart';
 
 class I18n implements WidgetsLocalizations {
+  @override
+  String get copyButtonLabel => _localizedValues?[locale.languageCode]?['copyButtonLabel'] ?? 'Copy';
+
+  @override
+  String get cutButtonLabel => _localizedValues?[locale.languageCode]?['cutButtonLabel'] ?? 'Cut';
+
+  @override
+  String get lookUpButtonLabel => _localizedValues?[locale.languageCode]?['lookUpButtonLabel'] ?? 'Look Up';
+
+  @override
+  String get pasteButtonLabel => _localizedValues?[locale.languageCode]?['pasteButtonLabel'] ?? 'Paste';
+
+  @override
+  String get searchWebButtonLabel => _localizedValues?[locale.languageCode]?['searchWebButtonLabel'] ?? 'Search Web';
+
+  @override
+  String get selectAllButtonLabel => _localizedValues?[locale.languageCode]?['selectAllButtonLabel'] ?? 'Select All';
+
+  @override
+  String get shareButtonLabel => _localizedValues?[locale.languageCode]?['shareButtonLabel'] ?? 'Share';
   //I18n(this.locale);
-  //1qq
+  //1qqgg
   SharedPref sharedPref = SharedPref();
 
   I18n(this.locale) {
