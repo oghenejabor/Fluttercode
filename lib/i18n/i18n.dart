@@ -8,6 +8,7 @@ import 'package:flyweb/src/models/settings.dart';
 
 class I18n implements WidgetsLocalizations {
   //I18n(this.locale);
+  //1qq
   SharedPref sharedPref = SharedPref();
 
   I18n(this.locale) {
