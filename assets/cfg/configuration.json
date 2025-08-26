@@ -1,4 +1,4 @@
 {
-  "api_base_url": "https://positifmobile.com/flyweb/admin/",
+  "api_base_url": "http://localhost/flyweb/",
   "defaultLanguage": "en"
 }
