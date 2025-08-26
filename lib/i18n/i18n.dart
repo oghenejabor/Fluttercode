@@ -28,7 +28,7 @@ class I18n implements WidgetsLocalizations {
   @override
   String get shareButtonLabel => _localizedValues?[locale.languageCode]?['shareButtonLabel'] ?? 'Share';
   //I18n(this.locale);
-  //1qqgg
+  //1qqgg//
   SharedPref sharedPref = SharedPref();
 
   I18n(this.locale) {
