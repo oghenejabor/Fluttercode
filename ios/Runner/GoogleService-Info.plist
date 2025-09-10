@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>881157721637-126vuajar2ctmi1l6mlj4c6kmut5gfcg.apps.googleusercontent.com</string>
+	<string>881157721637-b35bsog4sm2ao5gpoivsstffiq5d06v8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.881157721637-126vuajar2ctmi1l6mlj4c6kmut5gfcg</string>
+	<string>com.googleusercontent.apps.881157721637-b35bsog4sm2ao5gpoivsstffiq5d06v8</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>881157721637-8kdhnu5vpvts77jua3htce8vl1dai22a.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.creatorsearchnsights.io</string>
+	<string>app.ngawinapp.ios</string>
 	<key>PROJECT_ID</key>
 	<string>exnay-a6d8d</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:881157721637:ios:ecd59ef4efc084d8ec39cc</string>
+	<string>1:881157721637:ios:4b01f6edc42ff964ec39cc</string>
 	<key>DATABASE_URL</key>
 	<string>https://exnay-a6d8d-default-rtdb.firebaseio.com</string>
 </dict>
