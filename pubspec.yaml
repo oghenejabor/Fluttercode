@@ -4,11 +4,7 @@ description: "A new Flutter project."
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-<<<<<<< HEAD
-version: 3.0.0+3
-=======
-version: 4.0.0+4
->>>>>>> c853c403a8f4480621b4e205ad47badef5b12f9f
+version: 5.0.0+5
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
