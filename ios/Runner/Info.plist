@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>CreatorInsights</string>
+	<string>Ngawin</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -28,10 +28,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>app.flyweb.scheme</string>
+			<string>app.ngawin.scheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>app.flyweb.scheme</string>
+				<string>app.ngawin.scheme</string>
 			</array>
 		</dict>
 	</array>
@@ -44,7 +44,7 @@
 	<key>FlutterDeepLinkingEnabled</key>
 	<true/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-7715550723700727~8463648994</string>
+	<string>ca-app-pub-7715550723700727~4630982630</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>youtube</string>

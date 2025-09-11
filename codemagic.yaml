@@ -1,12 +1,3 @@
-workflows:
-  ios-release:
-    name: iOS Release
-    environment:
-      flutter: stable
-      xcode: latest
-    scripts:
-      - flutter pub get
-      - cd ios && pod install && cd ..
-      - flutter build ipa --export-method app-store
-    artifacts:
-      - build/ios/ipa/Runner.ipa
+git add codemagic.yaml
+git commit -m 'Add first workflow'
+git push
