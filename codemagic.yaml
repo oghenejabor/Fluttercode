@@ -10,3 +10,4 @@ workflows:
       - flutter build ipa --export-method app-store
     artifacts:
       - build/ios/ipa/Runner.ipa
+      - 
